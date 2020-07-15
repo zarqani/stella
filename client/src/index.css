@@ -1,0 +1,120 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.btn:not(:last-child) {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+.modal-backdrop.modal-backdrop {
+  z-index: 4;
+}
+
+/***************************/
+
+.PakageList-item {
+  width: 100%;
+  padding: 30px;
+  position: relative;
+  border-top: 6px solid;
+  background-color: #f4f5f7;
+}
+
+.PakageList-discount {
+  top: -25px;
+  color: #181818;
+  left: 20px;
+  width: 40px;
+  border: 2px solid white;
+  height: 40px;
+  position: absolute;
+  font-size: 75%;
+  text-align: center;
+  font-weight: bold;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #ffcd00;
+}
+
+.PakageList-content {
+  min-height: 60px;
+}
+
+/***************************/
+
+@media (min-width: 768px) {
+  .section-hero {
+    min-height: 657px;
+  }
+}
+
+.header-sm .section-profile-cover {
+  height: 90px;
+}
+
+.shape-style-img {
+  background-size: cover !important;
+  background-position: center !important;
+  position: relative;
+}
+
+.shape-style-img:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #140a43;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+.film-nav-tabs .nav-tabs {
+  border-bottom: 0 none;
+}
+
+.film-nav-tabs .nav-tabs .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: transparent;
+  border-radius: 0;
+  border-color: transparent;
+  height: 46px;
+  line-height: 36px;
+  font-size: 14px;
+}
+
+.film-nav-tabs .nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: #5b547c;
+}
+
+/********************/
+
+.slick-dots li button:before {
+  font-size: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #5e72e4;
+  opacity: 1;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  font-size: 30px;
+  color: #5e72e4;
+}
